@@ -27,5 +27,13 @@ def main():
     #print(compare_strings("Learn to count: 1, 2, 3.", "Learn to count: one, two, three."))  # False
     #print(compare_strings("They found some body.", "They found somebody."))  # False
     return print(output)
+    import matplotlib.pyplot as plt
+#    import matplotlib as mpl
+    import numpy as np
+
+    x = np.linspace(0, 20, 100)
+    plt.plot(x, np.sin(x))
+    plt.grid()
+    plt.show()
 if __name__=="__main__":
     main()
